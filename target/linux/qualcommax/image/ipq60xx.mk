@@ -44,7 +44,7 @@ TARGET_DEVICES += glinet_gl-ax1800
 define Device/glinet_gl-axt1800
 	$(call Device/glinet_gl-common)
 	DEVICE_MODEL := GL-AXT1800
-	DEVICE_PACKAGES := ipq-wifi-glinet_gl-axt1800 kmod-hwmon-gpiofan
+	DEVICE_PACKAGES := ipq-wifi-glinet_gl-axt1800 kmod-hwmon-pwmfan
 endef
 TARGET_DEVICES += glinet_gl-axt1800
 
